@@ -1,6 +1,6 @@
 name: Java CI
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
@@ -16,5 +16,5 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Upload to CoPilot
-      if: github.event_name == 'push' || github.event_name == 'pull_request'
+      if: github.event_name == 'push' || github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
       run: bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/githubactions/scripts/upload)

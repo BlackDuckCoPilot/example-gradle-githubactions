@@ -6,7 +6,7 @@ Shows a working setup for using the Black Duck CoPilot integration to analyze th
 
 ## GitHub CI/CD Setup
 
-The `.github/workflows/workflow.yml` file has been modified to upload generated dependency data to Synopsys CoPilot:
+The `.github/workflows/workflow.yml` file has been modified to upload generated external dependency data to Synopsys CoPilot:
 
 ```yaml
 - name: Upload to CoPilot

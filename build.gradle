@@ -23,7 +23,6 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	compile group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.1'
 	compile group: 'args4j', name: 'args4j', version: '2.33'
 	compile group: 'javax.inject', name: 'javax.inject', version: '1'
 	compile group: 'org.springframework', name: 'spring-context', version: '4.2.5.RELEASE'

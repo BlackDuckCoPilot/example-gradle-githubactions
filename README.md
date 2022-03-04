@@ -1,4 +1,4 @@
-# Black Duck CoPilot Gradle/GitHub CI Example
+# Synopsys CoPilot Gradle/GitHub CI Example
 
 [![Actions](https://github.com/BlackDuckCoPilot/example-gradle-githubactions/workflows/Java%20CI/badge.svg)](https://github.com/BlackDuckCoPilot/example-gradle-githubactions/actions?workflow=Java+CI) [![Black Duck Security Risk](https://copilot-valid.blackducksoftware.com/github/repos/BlackDuckCoPilot/example-gradle-githubactions/branches/validation/badge-risk.svg)](https://copilot-valid.blackducksoftware.com/github/repos/BlackDuckCoPilot/example-gradle-githubactions/branches/validation)
 
